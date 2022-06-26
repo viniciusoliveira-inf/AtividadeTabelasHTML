@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<title>Atividade Prática - Tabelas HTML - Pagina 01</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Atividade Prática - Tabelas HTML - Pagina 01</h1>
+		</header>
+		<br>
+		<div>
+			<table align="center" border="2" width="90%">
+				<caption><h2>Tabela 01</h2></caption>
+				<tr align="left">
+					<th width="30%">Nome</th>
+					<th width="30%">Sobrenome</th>
+					<th width="30%">Idade</th>
+				</tr>
+				<tr align="center">
+					<th>Cirilo</th>
+					<td>Rivera</td>
+					<td>14</td>
+				</tr>
+				<tr align="right">
+					<th>Maria</th>
+					<td>Joaquina</td>
+					<td>13</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<hr>
+		<div>
+			<table align="center" border="4" width="75%">
+				<caption><h2>Tabela 02</h2></caption>
+				<tr align="right" style="background-color: red;">
+					<th width="25%">1</th>
+					<th width="25%">2</th>
+					<th width="25%">3</th>
+				</tr>
+				<tr align="center" style="background-color: blue;">
+					<td colspan="3">4</td>
+				</tr>
+				<tr align="left" style="background-color: chartreuse;">
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+				</tr>
+			</table>
+		</div>
+		<br>
+		<hr>
+		<div>
+			<table align="center" border="6" width="90%">
+				<caption><h2>Tabela 03</h2></caption>
+				<colgroup>
+					<col style="background-color: red;">
+					<col style="background-color: blue;">
+					<col style="background-color: chartreuse;">
+				</colgroup>
+				<tr>
+					<td width="30%">1</td>
+					<td width="30%">2</td>
+					<td width="30%" rowspan="3">3</td>
+				</tr>
+				<tr>
+					<td colspan="2">4</td>
+				</tr>
+				<tr >
+					<td>5</td>
+					<td>6</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
